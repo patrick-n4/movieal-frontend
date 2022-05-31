@@ -1,0 +1,1028 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    /* This is the head */
+    
+    .container {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .nav-bar {
+        height: 10%;
+        display: flex;
+        gap: 1em;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: space-evenly;
+        align-items: center;
+        border-bottom: 2px solid black;
+    }
+    
+    .title {
+        width: 22em;
+        height: 4em;
+        font-family: 'Syne Mono', monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    
+    .two {
+        color: #FF1F1F;
+    }
+    
+    .three>button,
+    .four>button {
+        border: none;
+        width: 24em;
+        height: 4em;
+        font-weight: bold;
+        font-size: 0.95em;
+        background-color: white;
+        font-family: 'Syne Mono', monospace;
+    }
+    /* This is the body */
+    
+    .body-part {
+        height: 73%;
+        margin-left: 10%;
+        margin-right: 8%;
+    }
+    
+    .content-header {
+        height: 10%;
+        font-family: 'Syne Mono', monospace;
+        font-size: 2em;
+        padding-top: 1em;
+    }
+    
+    .content-data {
+        height: 90%;
+        display: grid;
+        gap: 1em;
+        grid-template-columns: 1fr 1fr 1fr 1.5fr;
+    }
+    
+    .content-data>div {
+        background-color: #EDEDED;
+    }
+    
+    .movie1 {
+        grid-column: 1/3;
+    }
+    
+    .movie2 {
+        grid-column: 3/4;
+        grid-row: 1/3;
+    }
+    
+    .sign-up {
+        grid-column: 4/5;
+        grid-row: 1/3;
+        background-color: #EDEDED !important;
+        border-radius: 0.5em;
+    }
+    
+    .about-info {
+        height: 15%;
+        margin-left: 10%;
+        margin-right: 8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 3em; */
+    }
+    
+    .box2 {
+        width: 100%;
+    }
+    
+    .img-4,
+    .img-5,
+    .img-1 {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .about-info>div {
+        background-color: #EDEDED;
+        height: 60%;
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 1em;
+        align-content: center;
+        justify-content: space-evenly;
+        border-radius: 0.3em;
+    }
+    
+    .info>div {
+        height: 4em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3em;
+        font-family: 'Syne Mono', monospace;
+    }
+    
+    .title-signup {
+        display: flex;
+        flex-direction: column;
+        height: 6em;
+        padding-top: 1.5em;
+        padding-left: 1.5em;
+        font-family: 'Syne Mono', monospace;
+        border-bottom: 1px rgb(155, 152, 152) solid;
+    }
+    
+    .register {
+        height: 37.5em;
+        display: flex;
+        flex-direction: column;
+        border-bottom-right-radius: 0.3em;
+        border-bottom-left-radius: 0.3em;
+    }
+    
+    .fill {
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .fill>div {
+        font-family: 'Syne Mono', monospace;
+        width: 90%;
+        height: 4em;
+        margin-bottom: 1em;
+        border-radius: 0.3em;
+        margin-top: 0.6em;
+    }
+    
+    .fill>div>input {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.3em;
+        font-family: 'Syne Mono', monospace;
+        color: black;
+        font-size: 1.4em;
+        background-color: #fdfdfd;
+        padding: 0.4em;
+    }
+    
+    .names {
+        display: flex;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        gap: 0.4em;
+    }
+    
+    .names>div>input {
+        height: 100%;
+        width: 15em;
+        font-size: 1em;
+    }
+    
+    .checkbox {
+        width: 1em !important;
+    }
+    
+    .check {
+        display: flex;
+        align-items: center;
+    }
+    
+    .checked {
+        margin-left: 1em;
+        font-size: 1.1em;
+    }
+    
+    .signin {
+        height: 15vh;
+        background-color: red;
+    }
+    
+    .final-signup {
+        width: 12em;
+        height: 3em;
+        font-size: 1em;
+        font-family: 'Syne Mono', monospace;
+        background-color: #2FA0DF;
+        border-radius: 0.5em;
+    }
+    
+    .ask {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .ask>p:last-child {
+        color: blue;
+    }
+    /* Footer of my page */
+    
+    .footer-end {
+        display: flex;
+        justify-content: center;
+        font-family: 'Syne Mono', monospace;
+    }
+    
+    .notify {
+        height: 10em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .notify>p {
+        background-color: rgb(16, 225, 197);
+        font-size: 1.5em;
+        margin-bottom: 0.4em;
+        height: 1.5em;
+        border-radius: 0.3em;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-family: 'Syne Mono', monospace;
+    }
+    
+    .sign-up-free {
+        animation-name: move;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes move {
+        from {
+            transform: scale(1, 1);
+        }
+        to {
+            transform: scale(1.1, 1.1);
+        }
+    }
+    /* style-home-css */
+    
+    .nav-bar {
+        height: 10%;
+        display: flex;
+        gap: 1em;
+        justify-content: space-evenly;
+        align-items: center;
+        border-bottom: 2px solid black;
+    }
+    
+    .title {
+        width: 22em;
+        height: 4em;
+        font-family: 'Syne Mono', monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    
+    .two {
+        color: #FF1F1F;
+    }
+    
+    .support2 {
+        width: 75%;
+        font-size: 0.8em;
+    }
+    
+    .support2>div {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        font-size: 1.4em;
+        font-weight: bold;
+        font-family: 'Syne Mono', monospace;
+    }
+    
+    .body-home {
+        width: 100%;
+        height: 88%;
+    }
+    
+    .footer-end {
+        display: flex;
+        justify-content: center;
+        font-family: 'Syne Mono', monospace;
+    }
+    
+    .body-home {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+    
+    .right {
+        margin-right: 4%;
+    }
+    
+    .left {
+        margin-left: 4%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1em;
+    }
+    
+    .videoOne {
+        grid-column: 1/4;
+    }
+    
+    .box2home {
+        width: 100%;
+    }
+    
+    .likes {
+        height: 9%;
+        color: black;
+        font-size: 1em;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .likes>div {
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+        flex-direction: row;
+        width: 33%;
+        font-family: 'Syne Mono', monospace;
+        align-items: center;
+    }
+    
+    .likes>div:nth-child(odd) {
+        color: rgb(228, 17, 17);
+    }
+    
+    .movieLaca {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .search {
+        height: 5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .othermovies {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 90%;
+        gap: 1em;
+        overflow-y: scroll;
+        height: 47em;
+        font-family: 'Syne Mono', monospace;
+    }
+    
+    .othermovies>div {
+        background-color: gray;
+        height: 15em;
+    }
+    
+    .videoPlaying {
+        width: 100%;
+        height: 90%;
+    }
+    
+    .searching {
+        padding: 2em;
+        width: 49.5%;
+        height: 4em;
+        background-color: rgb(238, 238, 238);
+        display: flex;
+        align-items: center;
+        border-radius: 0.5em;
+        font-family: 'Syne Mono', monospace;
+    }
+    
+    .suggestions {
+        background-color: rgb(238, 238, 238);
+        height: 4em;
+        width: 49.5%;
+        border-radius: 0.5em;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-left: 0.7em;
+    }
+    
+    #search {
+        width: 98%;
+        font-size: 1.4em;
+        border-radius: 0.3em;
+        border: none;
+    }
+    
+    .fa-magnifying-glass {
+        font-size: 1.6em;
+        border-top-right-radius: 0.3em;
+    }
+    
+    .suggestions>div {
+        background-color: rgb(185, 191, 189);
+        width: 6.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0.3em;
+        font-size: 1em;
+        border-radius: 0.3em;
+        height: 2em;
+        font-family: 'Syne Mono', monospace;
+    }
+    
+    .imageVideo {
+        width: 100%;
+        height: 100%;
+    }
+    /* ABOUT US */
+    
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    .nav-bar {
+        height: 10%;
+        display: flex;
+        gap: 1em;
+        justify-content: space-evenly;
+        align-items: center;
+        border-bottom: 2px solid black;
+    }
+    
+    .title {
+        width: 22em;
+        height: 4em;
+        font-family: 'Syne Mono', monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    
+    .two {
+        color: #FF1F1F;
+    }
+    
+    .support2 {
+        width: 75%;
+    }
+    
+    .support2>div {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        font-size: 1.4em;
+        font-weight: bold;
+        font-family: 'Syne Mono', monospace;
+    }
+    
+    .container {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .about-body {
+        height: 88%;
+        margin-left: 4%;
+        margin-right: 4%;
+        background-color: rgb(243, 240, 242);
+        font-family: 'Syne Mono', monospace;
+    }
+    
+    .footer-end {
+        display: flex;
+        justify-content: center;
+        font-family: 'Syne Mono', monospace;
+    }
+    
+    .about-text {
+        height: 80%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .social-medias {
+        height: 20%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1em;
+    }
+    
+    .social-medias>div {
+        background-color: rgb(241, 241, 241);
+        font-size: 1.4em;
+        color: rgb(180, 29, 29);
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 0.2em;
+    }
+    
+    .about-text-all {
+        height: 90%;
+        font-size: 1.4em;
+    }
+    
+    h1 {
+        margin-bottom: 0.3em;
+        color: green;
+    }
+    
+    .about-text-all>p {
+        margin: 1em;
+    }
+    
+    .medias-social {
+        height: 3em;
+        width: 100%;
+        color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 1.4em;
+    }
+    
+    address {
+        font-size: 0.7em;
+        color: rgb(28, 28, 138);
+    }
+    
+    .visit-advert {
+        font-size: 0.7em;
+        color: black;
+    }
+    
+    .action-movies>p {
+        font-size: 0.8em;
+        color: rgb(0, 0, 0);
+        background-color: rgb(220, 248, 220);
+        border-radius: 0.2em;
+        cursor: pointer;
+    }
+    /* SUPPORT */
+    
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    .nav-bar {
+        height: 10%;
+        display: flex;
+        gap: 1em;
+        justify-content: space-evenly;
+        align-items: center;
+        border-bottom: 2px solid black;
+    }
+    
+    .title {
+        width: 22em;
+        height: 4em;
+        font-family: 'Syne Mono', monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    
+    .two {
+        color: #FF1F1F;
+    }
+    
+    .support2 {
+        width: 75%;
+    }
+    
+    .support2>div {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        font-size: 1.4em;
+        font-weight: bold;
+        font-family: 'Syne Mono', monospace;
+    }
+    
+    .container {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .about-body {
+        height: 88%;
+        margin-left: 4%;
+        margin-right: 4%;
+        background-color: rgb(243, 240, 242);
+        font-family: 'Syne Mono', monospace;
+    }
+    
+    .footer-end {
+        display: flex;
+        justify-content: center;
+        font-family: 'Syne Mono', monospace;
+    }
+    
+    .about-text {
+        height: 80%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .social-medias {
+        height: 20%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1em;
+    }
+    
+    .social-medias>div {
+        background-color: rgb(241, 241, 241);
+        font-size: 1.4em;
+        color: rgb(255, 0, 0);
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 0.2em;
+    }
+    
+    .about-text-all {
+        height: 90%;
+        font-size: 1.4em;
+    }
+    
+    h1 {
+        margin-bottom: 0.3em;
+        color: green;
+    }
+    
+    .about-text-all>p {
+        margin: 1em;
+    }
+    
+    .medias-social {
+        height: 3em;
+        width: 100%;
+        color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 1.4em;
+    }
+    
+    address {
+        font-size: 0.7em;
+        color: rgb(28, 28, 138);
+    }
+    
+    .visit-advert {
+        font-size: 0.7em;
+        color: black;
+    }
+    
+    .action-movies>p {
+        font-size: 0.8em;
+        color: rgb(0, 0, 0);
+        background-color: rgb(220, 248, 220);
+        border-radius: 0.2em;
+        cursor: pointer;
+    }
+    
+    .fa-phone {
+        font-size: 0.7em;
+        color: rgb(0, 0, 0);
+    }
+    
+    .fa-envelope-dot {
+        font-size: 0.5em;
+        text-transform: lowercase;
+    }
+    
+    .emailing-support {
+        font-size: 0.7em;
+        color: black;
+    }
+    
+    .commentSupport {
+        width: 50em;
+        height: 15em;
+        margin-left: 1.2em;
+        font-size: 1.3em;
+    }
+    
+    .formsupportProblems {
+        display: flex;
+        flex-direction: column;
+        height: 11em;
+    }
+    
+    .submitProblem {
+        width: 5em;
+        font-size: 1em;
+        margin-left: 1.2em;
+        margin-top: 0.4em;
+    }
+    /* MEDIA QUERY */
+    
+    @media only screen and (max-width:1407px) {
+        .support-text {
+            font-size: 10px;
+        }
+        .one {
+            display: none;
+        }
+        .two {
+            display: none;
+        }
+        .about-info {
+            font-size: 10px;
+        }
+        .nav-bar {
+            height: 7.5%;
+        }
+        .about-text {
+            font-size: 10px;
+        }
+        .commentSupport {
+            width: 30em;
+        }
+        .social-medias {
+            font-size: 10px;
+        }
+    }
+    
+    @media only screen and (max-width:951px) {
+        .about-info {
+            font-size: 8px;
+        }
+        .one {
+            font-size: 8px;
+        }
+        .nav-bar {
+            height: 5%;
+        }
+        .commentSupport {
+            width: 20em;
+        }
+        .social-medias {
+            font-size: 7px;
+        }
+        .support-text {
+            font-size: 7px;
+        }
+        .support-text {
+            display: flex;
+            flex-direction: column;
+        }
+        .phone-message-contacts {
+            display: none;
+        }
+        .body-home {
+            display: flex;
+            flex-direction: column;
+        }
+        .search {
+            font-size: 10px;
+        }
+        .likes {
+            font-size: 10px;
+        }
+    }
+    
+    @media only screen and (max-width:591px) {
+        .social-medias {
+            font-size: 5px;
+        }
+    }
+    /* CONTACTS */
+    
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    .nav-bar {
+        height: 10%;
+        display: flex;
+        gap: 1em;
+        justify-content: space-evenly;
+        align-items: center;
+        border-bottom: 2px solid black;
+    }
+    
+    .title {
+        width: 22em;
+        height: 4em;
+        font-family: 'Syne Mono', monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    
+    .two {
+        color: #FF1F1F;
+    }
+    
+    .support2 {
+        width: 75%;
+    }
+    
+    .support2>div {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        font-size: 1.4em;
+        font-weight: bold;
+        font-family: 'Syne Mono', monospace;
+    }
+    
+    .container {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .about-body {
+        height: 88%;
+        margin-left: 4%;
+        margin-right: 4%;
+        background-color: rgb(243, 240, 242);
+        font-family: 'Syne Mono', monospace;
+    }
+    
+    .support-text {
+        height: 80%;
+        align-items: center;
+        /* background-color: red; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+    
+    .social-medias {
+        height: 20%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1em;
+    }
+    
+    .social-medias>div {
+        background-color: rgb(241, 241, 241);
+        font-size: 1.4em;
+        color: rgb(255, 0, 0);
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 0.2em;
+    }
+    
+    .medias-social {
+        height: 3em;
+        width: 100%;
+        color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 1.4em;
+    }
+    
+    .action-movies>p {
+        font-size: 0.8em;
+        color: rgb(0, 0, 0);
+        background-color: rgb(220, 248, 220);
+        border-radius: 0.2em;
+        cursor: pointer;
+    }
+    
+    .fa-phone {
+        font-size: 0.7em;
+        color: rgb(0, 0, 0);
+    }
+    
+    .fa-envelope-dot {
+        font-size: 0.5em;
+        text-transform: lowercase;
+    }
+    
+    .emailing-support {
+        font-size: 0.7em;
+        color: black;
+    }
+    
+    .commentSupport {
+        width: 40em;
+        height: 15em;
+        margin-left: 1.2em;
+        font-size: 1.3em;
+    }
+    
+    .footer-end {
+        display: flex;
+        justify-content: center;
+        font-family: 'Syne Mono', monospace;
+    }
+    
+    .support-text>div {
+        height: 100%;
+        padding: 4em 8em;
+    }
+    
+    .get-quote {
+        height: 30%;
+        font-size: 1.3em;
+    }
+    
+    .get-quote>h1 {
+        margin-bottom: 0.4em;
+    }
+    
+    .phone-message-contacts {
+        /* background-color: green; */
+        height: 60%;
+    }
+    
+    .contacts-social-medias {
+        height: 20%;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .your-name-address {
+        background-color: rgb(255, 255, 255);
+        height: 70%;
+        padding: 3em;
+        border-top-right-radius: 0.4em;
+        border-top-left-radius: 0.4em;
+    }
+    
+    .send-message-contacts {
+        background-color: rgb(255, 255, 255);
+        height: 20%;
+        border-bottom-right-radius: 0.4em;
+        border-bottom-left-radius: 0.4em;
+        padding-right: 3em;
+    }
+    
+    .your-name-address>form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    
+    .contact-name {
+        height: 3em;
+        width: 100%;
+        border-radius: 0.3em;
+    }
+    
+    .contact-message {
+        height: 10em;
+        width: 100%;
+        border-radius: 0.3em;
+    }
+    
+    .button-send-contacts {
+        height: 4em;
+        width: 30%;
+        float: right;
+        align-items: center;
+        justify-content: center;
+        color: rgb(187, 25, 25);
+        background-color: rgb(16, 49, 133);
+        font-size: 1em;
+    }
+    
+    .contacts-address-image {
+        width: 100%;
+        height: 100%;
+    }
